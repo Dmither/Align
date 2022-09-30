@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Pacifico&family=Playfair+Display&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
-@import url(reset.scss);
+@import url(reset.css);
 
 $ultra-dark: #172426;
 $dark: #153C3C;
@@ -130,7 +130,7 @@ $cards-bg: #F2F8F8;
 			height: 2px;
 			width: 100%;
 			background-color: #ADC9A6;
-			transition: top 0.2s linear 0.2s, rotate 0.2s linear 00s;
+			transition: top 0.2s linear 0.2s, transform 0.2s linear 00s;
 		}
 		&>span{
 			top: 50%;
@@ -207,7 +207,7 @@ $cards-bg: #F2F8F8;
 }
 .burger-active{
 	&>span, &>span::before, &>span::after{
-		transition: top 0.2s linear 0s, rotate 0.2s linear 0.2s;
+		transition: top 0.2s linear 0s, transform 0.2s linear 0.2s;
 	}
 	&>span{
 		transform: rotate(45deg);

@@ -152,7 +152,7 @@
   height: 2px;
   width: 100%;
   background-color: #ADC9A6;
-  transition: top 0.2s linear 0.2s, rotate 0.2s linear 0s;
+  transition: top 0.2s linear 0.2s, transform 0.2s linear 0s;
 }
 .header__burger > span {
   top: 50%;
@@ -233,7 +233,7 @@
 }
 
 .burger-active > span, .burger-active > span::before, .burger-active > span::after {
-  transition: top 0.2s linear 0s, rotate 0.2s linear 0.2s;
+  transition: top 0.2s linear 0s, transform 0.2s linear 0.2s;
 }
 .burger-active > span {
   transform: rotate(45deg);
