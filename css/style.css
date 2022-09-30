@@ -236,14 +236,14 @@
   transition: top 0.2s linear 0s, rotate 0.2s linear 0.2s;
 }
 .burger-active > span {
-  rotate: 45deg;
+  transform: rotate(45deg);
 }
 .burger-active > span::before {
   top: 0;
 }
 .burger-active > span::after {
   top: 0;
-  rotate: -90deg;
+  transform: rotate(-90deg);
 }
 
 .menu-active {
