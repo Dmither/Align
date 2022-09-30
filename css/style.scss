@@ -85,6 +85,7 @@ $cards-bg: #F2F8F8;
 	}
 }
 .header{
+	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
 	padding: 10px 0;
@@ -564,7 +565,8 @@ $cards-bg: #F2F8F8;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		column-gap: 10px;
+		-moz-column-gap: 10px;
+		     column-gap: 10px;
 	}
 	&__logo {
 		height: 23px;

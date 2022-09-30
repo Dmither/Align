@@ -687,7 +687,7 @@
   align-items: center;
   justify-content: center;
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .footer__logo {
   height: 23px;
