@@ -113,6 +113,10 @@ $cards-bg: #F2F8F8;
 		font-size: 28px;
 		font-weight: 700;
 		line-height: 1.15;
+		transition: all 0.3s ease 0s;
+		&:hover, &:focus{
+			transform: scale(1.05);
+		}
 	}
 	&__burger{
 		display: none;
@@ -164,6 +168,10 @@ $cards-bg: #F2F8F8;
 		line-height: 1.60;
 		letter-spacing: 0.32px;
 		color: #DDE4E4;
+		transition: all 0.3s ease 0s;
+		&:hover, &:focus{
+			color: #6C8989;
+		}
 	}
 	&__btn {
 		padding: 8px 24px;
@@ -175,6 +183,10 @@ $cards-bg: #F2F8F8;
 			line-height: 1.85;
 			letter-spacing: 0.14px;
 			color: #FFFFFF;
+		}
+		transition: all 0.3s ease 0s;
+		&:hover, &:focus{
+			background: #6C8989;
 		}
 	}
 }
@@ -326,6 +338,7 @@ $cards-bg: #F2F8F8;
 		background: $cards-bg;
 		border-radius: 12px;
 		padding: 25px 35px 0;
+		overflow: hidden;
 		@media (min-width: 768px) {
 			padding: 30px 42px 0;
 		}
@@ -334,6 +347,14 @@ $cards-bg: #F2F8F8;
 		}
 		@media (min-width: 1200px) {
 			padding: 40px 56px 0;
+		}
+		img{
+			transition: all 0.3s ease 0s;
+		}
+		&:hover{
+			img{
+				transform: scale(1.05);
+			}
 		}
 	}
 	&__title {
@@ -402,8 +423,14 @@ $cards-bg: #F2F8F8;
 		border-radius: 8px;
 		img{
 			max-width: 100%;
+			transition: all 0.3s ease 0s;
 			@media (max-width: 767px) {
 				max-width: 738px;
+			}
+		}
+		&:hover{
+			img{
+				transform: scale(1.05);
 			}
 		}
 	}
@@ -412,6 +439,7 @@ $cards-bg: #F2F8F8;
 	padding: 28px 25px;
 	display: flex;
 	font-size: 15px;
+	transition: all ease 0.3s 0s;
 	@media (min-width: 768px) {
 		font-size: 16px;
 		padding: 33px 30px;
@@ -430,9 +458,16 @@ $cards-bg: #F2F8F8;
 		line-height: 1.52;
 		letter-spacing: 0.96px;
 		color: $ultra-dark;
+		transition: all ease 0.3s 0s;
 	}
 	&__arrow {
 		width: 0.8em;
+	}
+	&:hover, &:focus{
+		background-color: #DDE4E4;
+		h3{
+			transform: translate(10px);
+		}
 	}
 }
 .other{
@@ -525,6 +560,10 @@ $cards-bg: #F2F8F8;
 		line-height: 1.85;
 		text-align: center;
 		color: #FFFFFF;
+		transition: all 0.3s ease 0s;
+		&:hover, &:focus{
+			background: #6C8989;
+		}
 	}
 }
 
@@ -683,6 +722,10 @@ $cards-bg: #F2F8F8;
 			line-height: 1.2;
 			letter-spacing: 0.32px;
 			color: #6C8989;
+			transition: all 0.3s ease 0s;
+			&:hover, &:focus{
+				color: #DDE4E4;
+			}
 			@media (min-width: 768px) {
 				line-height: 1.5;
 			}
